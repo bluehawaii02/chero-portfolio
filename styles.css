@@ -1135,3 +1135,47 @@ footer{
     padding-bottom: 1%;
 }
 
+@media(max-width: 1630px) {
+   main{
+    #home{
+        width: 80%;
+        padding-inline: 10%;
+    }
+
+    #about{
+        width: 80%;
+        padding-inline: 10%;
+    }
+
+    #skills{
+        width: 80%;
+        padding-inline: 10%;
+    }
+
+    #services{
+        width: 80%;
+        padding-inline: 10%;
+    }
+
+    #projects{
+        #projects-top{
+            width: 80%;
+            padding-inline: 10%;
+        }
+        #projects-main{
+            #proj1, #proj2, #proj3{
+                width: 60%;
+                padding-inline: 20%;
+            }
+        }
+    }
+
+    #contact{
+        width: 100%;
+        padding-inline: 10%;
+        #contact-bottom{
+            width: 100%;
+        }
+    }
+   }
+}
