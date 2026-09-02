@@ -1138,8 +1138,14 @@ footer{
 @media(max-width: 1630px) {
    main{
     #home{
-        width: 80%;
-        padding-inline: 10%;
+        margin-inline: 0;
+        padding-inline: 2%;
+        #left-home{
+            width: 50%;
+        }
+        #right-home{
+            width: 30%;
+        }
     }
 
     #about{
